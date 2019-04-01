@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 namespace Nfq\Akademija\Strict {
-    function calculateHomeWorkSum(...$numbers): int{
+    function calculateHomeWorkSum(int ...$numbers): int{
         $suma = 0;
         foreach($numbers as $key => $numb_array){
         $suma += $numb_array;
