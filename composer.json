@@ -1,0 +1,22 @@
+{
+    "name": "random_thoughts_vick/php-1",
+    "type": "project",
+    "autoload": {
+        "files": [
+            "src/functions.php",
+            "src/functions_strict.php"
+        ]
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "composer-plugin-api": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Viktoras Karcikovas",
+            "email": "viktoras.karcikovas@gmail.com"
+        }
+    ]
+}
