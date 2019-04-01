@@ -2,7 +2,7 @@
 
 #Global namespace;
 namespace {
-    function calculateHomeWorkSum(int ...$numbers): int{
+    function calculateHomeWorkSum( ...$numbers): int{
         $suma = 0;
         foreach($numbers as $key => $numb_array){
         $suma += $numb_array;
@@ -13,7 +13,7 @@ namespace {
 
 #po Nfq\Akademija\Not_Typed namespace;
 namespace Nfq\Akademija\Not_Typed{
-    function calculateHomeWorkSum(int ...$numbers): int{
+    function calculateHomeWorkSum( ...$numbers): int{
         $suma = 0;
         foreach($numbers as $key => $numb_array){
         $suma += $numb_array;
